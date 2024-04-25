@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Counter</title>
+	<meta name="author" content="saireddy">
+	<meta name="ketwords" content="counter app">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<h1>Counter App</h1>
+	<h2 id="increment-el"> Count : 0</h2> 
+	<button  onclick = "increment()" id="increment-btn"> Increment </button>&nbsp;
+	<button onclick="decrement()" id="decrement-btn"> Decrement </button>&nbsp;
+	<button onclick="reset()" id="reset-btn"> Reset to "0"</button>&nbsp;
+	<button onclick="save()" id="save-btn"> Save </button>&nbsp;
+<h2 >Previous entries : </h2>
+<h2 id="previous-entries"></h2>
+<button onclick="clean()" id="clear-btn"> Clear </button>&nbsp;
+	<script src="index.js"></script>
+</body>
+</html>
